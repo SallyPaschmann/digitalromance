@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: 'hkGrotesk';
+    src: url(fonts/HKGrotesk-MediumLegacy.otf);
+}
+
+@font-face {
+    font-family: 'atApoc';
+    src: url(fonts/ATApoc-Dark.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, #282825);
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: red; */
+    z-index: 1;
+}
+
+#headline_div {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+
+  background: linear-gradient(to right, black , #282825);
+  font-family: 'atApoc';
+  color: white;
+  font-size: 120px;
+  text-shadow: 1px 1px 8px white;
+  margin-left: 150px;
+}
+
+#vertical_text {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+
+  font-family: 'atApoc';
+  color: white;
+  font-size: 120px;
+  text-shadow: -1px 1px 8px white;
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+  margin-top: 407px;
+  margin-left: 2px;
+}
+
+#textdiv {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+  height: 800px;
+  /* background-color: green; */
+
+  font-family: 'hkGrotesk';
+  font-size: 24px;
+  color: white;
+  max-width: 1000px;
+  overflow-y: auto;
+  /* margin-top: -500px; */
+  margin-right: 350px;
+  }
+
+#popupdiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: red; */
+    z-index: 2;
+}

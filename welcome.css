@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'hkGrotesk';
+    src: url(fonts/HKGrotesk-MediumLegacy.otf);
+}
+
+@font-face {
+    font-family: 'atApoc';
+    src: url(fonts/ATApoc-Dark.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, #282825);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+h1 {
+  font-family: 'atApoc';
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'HKGrotesk';
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.button{
+  background-color: #8800ff;
+  font-family: 'atApoc';
+  font-size:15px;
+  text-decoration:none;
+  color: white;
+  border-radius: 20px;
+  padding:10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
